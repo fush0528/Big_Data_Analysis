@@ -26,3 +26,28 @@
 - openpyxl
 - scikit-learn
 - numpy
+
+## 環境設置
+1. 確保使用正確的 Python 環境：
+   ```bash
+   # 使用虛擬環境中的 Python
+   c:\users\p2451fav\.virtualenvs\fastapi-horuss-one-fgyxkgx9\Scripts\python.exe
+   ```
+
+2. 安裝所需套件：
+   ```bash
+   python -m pip install pandas matplotlib seaborn scikit-learn openpyxl
+   ```
+
+3. VSCode 設置：
+   - 按 F1 或 Ctrl+Shift+P
+   - 輸入 "Python: Select Interpreter"
+   - 選擇包含 "fastapi-horuss-one-fgyxkgx9" 的虛擬環境
+
+## 執行說明
+運行程式將會：
+1. 讀取並顯示數據基本統計資訊
+2. 生成溫度與濕度關係散點圖
+3. 顯示光照條件與二氧化碳濃度的關係圖
+4. 建立土壤濕度預測模型並評估效能
+5. 生成 3D 預測結果視覺化圖表
